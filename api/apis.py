@@ -10,7 +10,6 @@ from rest_framework.decorators import detail_route
 from rest_framework import viewsets
 from rest_framework.permissions import AllowAny,IsAuthenticated
 #from rest_framework.authentication import BasicAuthentication
-
 from django.http import JsonResponse
 
 from database.models import HealthCard,HealthState,Participant,DefaultSetting
